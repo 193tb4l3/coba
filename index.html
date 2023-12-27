@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kopi Sangah</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-MBXlMfYd3b/f2/Hji0A4enjFOkAMok7hpROaCfUp5rc5dmav3kiu8tWx/ZwlZ6Oj8IaSVEjmDp1h1/NKgbsgO5g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-image: url('perkebunan.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .order-link {
+      background-color: #ff6600;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .order-link:hover {
+      background-color: #e65c00;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    nav {
+      background-color: #eee;
+      padding: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4b2222;
+      margin-right: 10px;
+    }
+
+    nav .social-links a {
+      font-size: 18px;
+      margin-right: 10px;
+    }
+
+    section {
+      padding: 40px 0;
+      color: #340c05;
+    }
+
+    section h2 {
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    #menu h5 {
+      color: #fff;
+    }
+
+    nav .social-links a {
+      font-size: 18px;
+      margin-right: 10px;
+    }
+
+    #tentang-kami {
+      text-align: center;
+    }
+
+    #tentang-kami .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    #menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    #menu .menu-item {
+      flex: 1;
+      text-align: center;
+    }
+
+    #menu img {
+      max-width: 100%;
+    }
+
+    .centered-dropdown {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 50px;
+    }
+
+    .centered-dropdown .dropdown-menu {
+      margin-top: 50px
+    }
+
+    .menu-item {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container" style="text-align:center;">
+      <h1>Kopi Sangah Asli Barokah</h1>
+      <p>Nikmati secangkir kopi berkualitas tinggi bersama kami.</p>
+      <a href="pemesanan.html" class="order-link">
+        <i class="fas fa-shopping-cart"></i> Pesanan
+      </a>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </div>
+  </header>
+
+  <section id="tentang-kami">
+    <div class="container">
+      <h4>Tentang Kami</h4>
+      <p>Pada 1995-2017, desa kami dibanjiri kopi lokal. Hasil panen melimpah, tapi harga rendah. Biaya produksi tak
+        seimbang dengan hasil. Banyak petani menganggur. Maka kami berinisiatif mengolah biji kopi, agar harganya lebih
+        tinggi dan membuka lapangan kerja. Meski hasilnya awalnya tidak sesuai harapan, semangat kami tak pudar. Kritik
+        dan cemoohan dari beberapa warga tak mematahkan tekad kami agar produk kami terus berkembang dan dikenal luas.
+
+        Mengikuti perubahan zaman, kami beralih ke kopi robusta. Alhamdulillah, kini produk kami mencapai luar daerah.
+        Kopi asli kami makin dikenal dan diapresiasi. Kami terus tingkatkan kualitas dan edukasi, melangkah pasti,
+        hingga kini usaha kopi ini terus berkembang.
+      </p>
+    </div>
+  </section>
+  <section id="menu" style="text-align:center;">
+    <div class="container">
+      <div class="dropdown centered-dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="menuDropdown" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false" style="text-align:center;">
+          Pilih Kopi
+        </button>
+        <div class="dropdown-menu" aria-labelledby="menuDropdown" style="text-align:center;">
+          <a class="dropdown-item" href="#">Kopi Sangah</a>
+          <a class="dropdown-item" href="#">Kopi Lanang</a>
+          <a class="dropdown-item" href="#">Kopi Luwak</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="kopi sangah.jpeg" width="500" height="300" alt="Kopi Sangah">
+      <h5>Kopi Sangah</h5>
+    </div>
+    <div class="menu-item">
+      <img src="kopi lanag.jpeg" width="500" height="300" alt="Kopi Lanang">
+      <h5>Kopi Lanang</h5>
+    </div>
+    <div class="menu-item">
+      <img src="kopi luwak.webp" width="500" height="300" alt="Kopi Luwak">
+      <h5>Kopi Luwak</h5>
+    </div>
+  </section>
+  <nav>
+    <div class="container" style="text-align:center;">
+      <a href="#">Beranda</a>
+      <a href="#tentang-kami">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <div class="social-links">
+        <a href="https://wa.me/081237171566" target="_blank"><i class="fab fa-whatsapp"></i> WA</a>
+        <a href="https://www.facebook.com/profile.php?id=61551839279255&mibextid=AQCFcj8imgClWYJ5" target="_blank"><i
+            class="fab fa-facebook"></i> FB</a>
+        <a href="https://www.instagram.com/anakdesa15032003?igshid=MmVlMjlkMTBhMg==" target="_blank"><i
+            class="fab fa-instagram"></i> IG</a>
+      </div>
+    </div>
+  </nav>
+  <footer>
+    <div class="container">
+      <p style="text-align:center;">
+        Jl rempek Rempek-Darussalam
+      </p>
+      <p style="text-align:center;">
+        &copy; 2023 Kopi Sangah. Hak Cipta Dilindungi.
+      </p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
